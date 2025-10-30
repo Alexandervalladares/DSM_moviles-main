@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/imgFlag"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/flag"
+            android:scaleType="fitCenter"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/tvCommonName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="España"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/tvOfficialName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reino de España"
+            android:textSize="16sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:id="@+id/tvRegion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Región: Europa"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tvSubregion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subregión: Sur de Europa"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tvPopulation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Población: 47,450,795"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tvISO2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ISO2: ES"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tvISO3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ISO3: ESP"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tvCapital"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Capital: Madrid"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tvCurrencies"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Monedas: Euro"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tvLanguages"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Idiomas: Español"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tvCoordinates"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Coordenadas: 40.0, -4.0"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Puedes agregar aquí los datos del clima si lo integras en esta pantalla -->
+    </LinearLayout>
+</ScrollView>

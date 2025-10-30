@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">Weather App</string>
+
+    <string name="app_name">Countries &amp; Weather</string>
+    <string name="flag">Bandera</string>
 </resources>
